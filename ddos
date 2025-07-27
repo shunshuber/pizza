@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = '0x7F1A2E'
 socketio = SocketIO(app)
 
-# Глобальные переменные
+# Глобальные переменны
 attack_active = False
 threads = []
 
